@@ -1,5 +1,5 @@
 # sidhistory_cloner
-Library for cloning sid history
+Powershell script for cloning sid history
 
 This contains needed files to clone a sid from one domain to another, based on samAccountName.
 Powershell executes, pulls the dll needed, and executes it.
