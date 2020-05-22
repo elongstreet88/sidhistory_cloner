@@ -10,7 +10,8 @@ Some AVs may trip on the dll, may have to disable to do it.
 1. Download sid_history_clone.ps1
 2. Run it (typically as domain admin from the target domain)
 
-Ex:
+```
+#Example
 $sourceCredential = get-credential
 $targetCredential = get-credential
 sid_history_clone.ps1 `
@@ -20,3 +21,4 @@ sid_history_clone.ps1 `
   -targetSAMAccountName "jdoe" `
   -targetDomain "mynewdomain" `
   -targetCredential $targetCredential
+```
