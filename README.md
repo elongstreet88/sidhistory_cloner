@@ -12,8 +12,8 @@ Some AVs may trip on the dll, may have to disable to do it.
 
 ```
 #Example
-$sourceCredential = get-credential #ex [myolddomain\el.admin]
-$targetCredential = get-credential #ex [mynewdomain\eric.admin]
+$sourceCredential = get-credential #ex [myolddomain\jdoe.admin]
+$targetCredential = get-credential #ex [mynewdomain\john.doe.admin]
 sid_history_clone.ps1 `
   -sourceCredential $sourceCredential `
   -sourceSAMAccountName "jon.doe" `
